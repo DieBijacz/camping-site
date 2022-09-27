@@ -1,0 +1,21 @@
+#navbar a {
+  text-decoration: none;
+  color: #011B10;
+}
+
+#navbar a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#navbar .logo {
+  letter-spacing: 3px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.dark-btn {
+  background-color: #011B10;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
