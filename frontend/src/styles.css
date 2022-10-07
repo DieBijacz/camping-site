@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap");
+.logo {
+  letter-spacing: 3px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.login-card {
+  width: calc(min(400px, 90%));
+}
+
+#navbar {
+  min-height: 7vh;
+}
+
+#navbar a {
+  color: #011B10;
+}
+
+#top-navbar {
+  min-height: 3vh;
+}
+
+#hero {
+  width: 100%;
+  min-height: 80vh;
+  background-image: url(assets/images/pexels-xue-guangjian-1687845.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 300px;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 10px black;
+          box-shadow: 0px 0px 10px black;
+}
+
+#hero #hero-text {
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#hero #hero-text h1 {
+  font-size: 4rem;
+}
+
+#hero .cards {
+  position: absolute;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  gap: 3rem;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+
+#hero .cards .hero-card {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+.user-galery-card {
+  text-align: center;
+}
+
+.user-galery-card:hover {
+  scale: 1.02;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */
