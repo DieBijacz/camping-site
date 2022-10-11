@@ -1,7 +1,6 @@
 import db from '../db.js'
 
 export const createAccount = (req, res) => {
-  console.log('create')
   const sql = `INSERT INTO users SET ?`
   const values = {
     "name": "Mateusz Stanilewicz",
